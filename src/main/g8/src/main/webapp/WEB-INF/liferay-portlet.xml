@@ -5,7 +5,7 @@
 <portlet>
     <!-- Matches definition in portlet.xml.          -->
     <!-- Note: Must not be the same as servlet name. -->
-    <portlet-name>Portlet Test portlet</portlet-name>
+    <portlet-name>$name$</portlet-name>
 
     <instanceable>true</instanceable>
     <ajaxable>false</ajaxable>

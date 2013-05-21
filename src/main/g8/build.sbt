@@ -1,6 +1,6 @@
 name := "$name$"
 
-scalaVersion := "2.10.1"
+scalaVersion := "$scala_version$"
 
 libraryDependencies ++= Seq(
   "com.vaadin" % "vaadin-server" % "7.0.5",

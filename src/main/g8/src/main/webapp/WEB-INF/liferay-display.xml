@@ -5,6 +5,6 @@
 
 <display>
     <category name="Vaadin">
-        <portlet id="Scaladin 7 Test portlet" />
+        <portlet id="$name$" />
     </category>
 </display>

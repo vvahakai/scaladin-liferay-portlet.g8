@@ -8,15 +8,15 @@
                 <param-value>false</param-value>
         </context-param>
         <servlet>
-		<servlet-name>Scaladin Boten</servlet-name>
+		<servlet-name>$name$ Servlet</servlet-name>
                 <servlet-class>vaadin.scala.ScaladinServlet</servlet-class>
                 <init-param>
                         <param-name>ScaladinUI</param-name>
-                        <param-value>com.arcusys.scaladinboten.ScaladinBotenUI</param-value>
+                        <param-value>$organization$.PortletUI</param-value>
                 </init-param>
         </servlet>
         <servlet-mapping>
-		<servlet-name>Scaladin Boten</servlet-name>
+		<servlet-name>$name$ Servlet</servlet-name>
                 <url-pattern>/*</url-pattern>
         </servlet-mapping>
 </web-app>
