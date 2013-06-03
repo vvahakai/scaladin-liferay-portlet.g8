@@ -2,6 +2,10 @@ name := "$name$"
 
 scalaVersion := "$scala_version$"
 
+resolvers ++= Seq(
+   "Arcusys snapshots" at "https://dev-1.arcusys.fi/mvn/content/repositories/public/"
+)
+
 libraryDependencies ++= Seq(
   "com.vaadin" % "vaadin-server" % "7.0.5",
   "com.vaadin" % "vaadin-client-compiled" % "7.0.5",
