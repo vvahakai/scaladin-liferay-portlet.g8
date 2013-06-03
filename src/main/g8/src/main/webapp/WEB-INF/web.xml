@@ -9,7 +9,7 @@
         </context-param>
         <servlet>
 		<servlet-name>$name$ Servlet</servlet-name>
-                <servlet-class>vaadin.scala.ScaladinServlet</servlet-class>
+                <servlet-class>vaadin.scala.server.ScaladinServlet</servlet-class>
                 <init-param>
                         <param-name>ScaladinUI</param-name>
                         <param-value>$organization$.PortletUI</param-value>

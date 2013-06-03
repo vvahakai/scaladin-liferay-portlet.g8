@@ -13,7 +13,7 @@
 
         <!-- Map portlet to a servlet. -->
         <portlet-class>
-            vaadin.scala.ScaladinPortlet
+            vaadin.scala.server.ScaladinPortlet
         </portlet-class>
         <init-param>
             <name>ScaladinUI</name>
